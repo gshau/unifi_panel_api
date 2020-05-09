@@ -4,11 +4,13 @@ This is a simple API to interact with Unifi LED panels using a GET request.  Opt
 
 ### Setup
 
-Docker is used to serve the app.  To start the app:
+Docker is used to serve the app.  In `src/app.py` change `PANEL_ADDRESS` to the ip address of your LED panel.  To start the app:
 
 ```
 docker-compose up
 ```
+
+### Usage
 
 To control on/off:
 ```
